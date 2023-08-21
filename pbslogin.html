@@ -1,0 +1,58 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<title> Login Page </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-image:url("final2.jpg");
+  background-size:cover;
+ }  
+button {   
+       background-color:white;   
+       width: 20%;  
+        color: hotpink;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: 2px solid pink;   
+        cursor: pointer;   
+         }   
+ form {   
+        //border: 3px solid blue;   
+        margin-top:60px;
+        margin-bottom:250px;
+        margin-right:250px;
+        margin-left:350px;
+    }   
+ input[type=text], input[type=password] {   
+        width: 80%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+       // border: 2px solid blue;   
+        box-sizing: border-box;   
+    }  
+ .container {
+       // background-image:url("final.jpg");   
+        background-size:cover;
+        padding: 25px;   
+        top:50%;
+        left:50%;
+    }   
+</style>   
+</head>    
+<body>    
+<center> <h1 style="color:hotpink;">LOGIN FORM </h1> </center>
+<p style="text-align:center;"><img src="logo.png" alt="avatar"  style="width:150px;height:120px;"></p>  
+    <form method="post" action="home.html"> 
+         <div class="container"> 
+          <b><font color=hotpink>   <label>Username : </label></font></b></br> 
+            <input type="text" placeholder="Enter Username" name="username" required></br> 
+            <b><font color=hotpink>   <label>Password : </label></font></b></br>  
+            <input type="password" placeholder="Enter Password" name="password" required></br>  
+           <button type="submit"><b>Login</b></button>  
+            <button type="reset" class="cancelbtn"><b> Cancel</b></button>   
+     </div>   
+    </form>     
+</body>     
+</html>  

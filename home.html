@@ -1,0 +1,85 @@
+<html>
+  <head>
+       <title>Booktheparking.com</title>
+    <style>
+       *{
+         margin: 0;
+         padding: 0;
+         font-family: times new romen;
+        }
+       ul{
+          float: right;
+          list-style-type: none; 
+          margin-top: 30px;        
+         }
+       ul li{
+             display: inline-block;
+            }
+       ul li a{
+                text-decoration: none;
+                color: hotpink;
+                padding: 5px 30px;
+                border: 1px solid transparent;
+                transition: 0.6s ease;
+               }
+      ul li a:hover{
+                    background-color:lightpink;
+                    color: #000;
+                   }
+      ul li.active a{
+                    background-color:lightpink;
+                    color: #000;
+                  }
+
+     img{
+         float: left;
+         width: 150px;
+         height: auto;
+        }
+     body{
+           max-width:1200px;
+           margin: auto;
+         } 
+     marquee{
+             font-size: 40px;
+             color: hotpink;
+            }
+     h3{
+         position:absolute;
+         top: 50%;
+         left: 50%;
+         transform:translate(-50%,-50%);
+         font-size: 50px;
+         color: darkblue;
+       }
+       a button{
+                position:absolute;
+                top: 80%;
+                left: 50%;
+                transform:translate(-50%,-50%);
+                font-size: 50px;
+                background-color: white;
+                color: hotpink;
+              }
+    </style>
+  </head>
+       <body background="final2.jpg" style="background-repeat: no-repeat;background-size:100%">
+          <header>
+               <img src="logo.jpg">
+            <ul>
+                <li class=active><a href="#">Home</a></li>
+                <li><a href="about us.html">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="facilities.html">Other facilities</a></li>
+                <li><a href="admin.html">admin</a></li>
+            </ul>
+                
+                <a href="bookingform.html">
+                      <button> LET'S BOOK</button>
+                </a>
+                <marquee > 50% discount for new                                        customers&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                          we only accept cash in hand!!                              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                          Offer remain for limited time, we are waiting for you:)</marquee>
+          </header>  
+       </body>
+</html>
